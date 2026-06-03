@@ -1,0 +1,10 @@
+{"intent": "list files", "command": "ls -la"}
+{"intent": "check disk usage", "command": "df -h"}
+{"intent": "show running processes", "command": "ps aux"}
+{"intent": "check memory usage", "command": "free -h"}
+{"intent": "show network connections", "command": "ss -tlnp"}
+{"intent": "check system uptime", "command": "uptime"}
+{"intent": "show current directory", "command": "pwd"}
+{"intent": "list environment variables", "command": "env | sort"}
+{"intent": "show system info", "command": "uname -a"}
+{"intent": "check who is logged in", "command": "who"}

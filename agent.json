@@ -1,0 +1,16 @@
+{
+  "name": "my-agent",
+  "version": "0.1.0",
+  "description": "A git-native agent",
+  "runtime": "lever-runner",
+  "skills": ["base"],
+  "thresholds": {
+    "match_confidence": 0.7,
+    "auto_promote": 0.9
+  },
+  "export_formats": ["nail", "jsonl"],
+  "compatibility": {
+    "pincherOS": ">=0.1.0",
+    "lever-runner": ">=0.3.0"
+  }
+}
